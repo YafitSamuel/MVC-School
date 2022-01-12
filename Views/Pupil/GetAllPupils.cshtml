@@ -1,0 +1,14 @@
+﻿@using Mvc_School_app.Models;
+
+<div>
+    @foreach (Pupil item in @Model)
+    {
+
+        <p> first Name:  @item.firstName</p>
+        <p> last Name:   @item.lastName</p>
+        <p> age:         @item.age</p>
+        <p>classRoom :    @item.classRoom</p>
+
+
+    }
+</div>
