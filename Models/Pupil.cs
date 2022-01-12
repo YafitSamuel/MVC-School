@@ -22,5 +22,12 @@ namespace Mvc_School_app.Models
             this.classRoom = classRoom;
 
         }
+        public static List<Pupil> Pupils = new List<Pupil>()
+        {
+         new Pupil(0,"yafit", "samuuel", 12, "aa"),
+         new Pupil(1,"romi", "samuuel", 13, "bb"),
+         new Pupil(2,"lior", "dana", 14, "cc"),
+         new Pupil(3,"tal", "ron", 15, "dd")
+       };
     }
 }

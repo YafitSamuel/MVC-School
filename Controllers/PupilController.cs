@@ -25,7 +25,6 @@ namespace Mvc_School_app.Controllers
 
         public ActionResult GetAllPupils()
         {
-
             return View(Pupils);
         }
 
